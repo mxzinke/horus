@@ -1,0 +1,7 @@
+[package]
+name = "horus"
+version = "0.1.0"
+authors = ["Aki <aki-ks on github>", "Maximilian Zinke <me@mxzinke.dev>"]
+edition = "2018"
+
+[dependencies]
