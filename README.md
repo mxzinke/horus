@@ -4,6 +4,24 @@ Job & Event distribution without single Point of Failure.
 
 > Warning, this is currently just a test project, like a proof of concept.
 
+# Requirements
+
+We had the following points in our mind.
+
+- infinite horizontal scalability
+- scaling through sharding, not replication
+- masterless architecture
+- no eventloss / dataloss
+- continue subscription after failure on same event
+- possibility to schedule an event
+- no guaranteed global order of events
+- client can be publisher and subscriber on lightweight methods
+- simple usage on client SDK
+
+# Concept 2
+
+
+
 # Concept
 
 The main issue on job distribution in a distributed (cloud) system with many workers is, that you still have a single point
